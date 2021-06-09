@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Class5work1</title>
+</head>
+<body>
+		<header><marquee>Home work </marquee></header>
+		<nav>
+			<a href="#">Home</a>
+			<a href="#">About Us</a>
+			<a href="#">Gallery</a>
+			<a href="#">Our Projects</a>
+			<a href="#">Contact Us</a>
+		</nav>
+		<div class="non-semantic">
+		<h1>This is a div which is a non-semantic element</h1>
+		<p><span>Span</span> is also a non semantic element</p>
+	</div>
+	<section class="semantic">
+		<h2>This is a section which is a semantic element</h2>
+		<h3>List of some semantic elements are given below:</h3>
+		<ol>
+			<li>article</li>
+			<li>aside</li>
+			<li>details</li>
+			<li>figcaption</li>
+			<li>figure</li>
+			<li>footer</li>
+			<li>header</li>
+			<li>main</li>
+			<li>mark</li>
+			<li>nav</li>
+			<li>section</li>
+			<li>summary</li>
+			<li>time</li>
+		</ol>
+		<aside><h5>Aside element didn't work for me. I did this part using "position". </h5></aside>
+			<!-- <div class="clr"></div> -->
+
+		<article>
+			<h4>Article tag practise</h4>
+			<p>This is an article tag. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas placeat, reprehenderit. Quaerat quia, quam aliquid possimus id quo voluptates consequuntur soluta impedit natus ullam ea officia autem dolorem illo cumque? Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, nostrum distinctio quibusdam laboriosam esse quo deserunt libero eum maiores, laborum.</p>
+			
+			<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quam enim, quia, ipsam quidem voluptate fugit voluptatum! Distinctio veritatis repellendus ipsam officia sunt tempore earum laborum nostrum molestiae necessitatibus libero, quod tenetur quaerat accusantium voluptate, aut sint. Eligendi, sit voluptatibus et!</p>
+		</article>
+		<details>
+			<summary>Click here to <mark>see more</mark></summary>
+			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium in quia laudantium ullam, a blanditiis, autem quos quas earum aspernatur. Exercitationem temporibus dignissimos quasi rerum error sed expedita illo esse.</p>
+		</details>
+		<figure>
+			<img src="images/leisure.jpg" alt="leisure">
+			<figcaption>Fig:1- leisure time</figcaption>
+		</figure>
+		<p>Our next class is in Thursday at <time>08:00</time> to <time>10:00</time></p>
+		<hr>
+		<div class="boolean">
+			<h3>List of some boolean attributes:</h3>
+			<ol>
+				<li>autoplay</li>
+				<li>allowfullscreen</li>
+				<li>checked</li>
+				<li>selected</li>
+				<li>disabled</li>
+				<li>readonly</li>
+				<li>controls</li>
+				<li>muted</li>
+			</ol>
+			<h4>Give your informations:</h4> <br>
+			<form action="" method="get">
+				<label for="firstname">First name:</label>
+				<input type="text" name="firstname" placeholder="Enter your first name"> <br> <br>
+				<label for="middlename">Middle name:</label>
+				<input type="text" name="middlename" placeholder="disabled" disabled><br> <br>
+				<label for="lastname">Last name:</label>
+				<input type="text" name="lastname" value="Begum (readonly)" readonly><br> <br>
+				<input type="checkbox" name="vehicle" checked> I have a bike (auto-checked) <br> <br>
+				<input type="checkbox" name="vehicle"> I have a car <br> <br>
+				<p>My bike is: (Honda is auto selected)</p> <br>
+				<select>
+					<option value="Honda" selected>Honda</option>
+					<option value="Yamaha">Yamaha</option>
+					<option value="Suzuki">Suzuki</option>
+					<option value="Bajaj">Bajaj</option>
+				</select> <br> <br>
+				<input type="submit" value="submit"> <br> <br>
+			</form>
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/94Rb86RtVp0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3650.8354373980983!2d90.4066663142977!3d23.78887369322396!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c70b72f1b8b1%3A0xfc87a1bc6699ed26!2sShikhbe%20Shobai!5e0!3m2!1sen!2sbd!4v1623231884458!5m2!1sen!2sbd" width="560" height="315" style="border:0;" allowfullscreen="" loading="lazy"></iframe> <br> <br>
+			<audio controls>
+  			<source src="audio/copyright_free.mp3" type="audio/mpeg">
+  			Your browser does not support the audio tag.
+			</audio>
+			<video width="320" height="240" controls autoplay muted>
+  			<source src="video/coding.mp4" type="video/mp4">
+  			Your browser does not support the video tag.
+			</video>
+		</div>
+	</section>
+	</body>
+</html>
